@@ -1,0 +1,4 @@
+#Tue Nov 17 17:36:32 CST 2020
+base.0=/Users/angzeng/Cloudgrain_project/Cloudgrain_parents/build/app/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
