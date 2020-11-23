@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HomeBanner extends StatelessWidget {
   //暂时从网络获取的图片
@@ -17,10 +18,36 @@ class HomeBanner extends StatelessWidget {
           "https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1629251846,4126644826&fm=26&gp=0.jpg"
     }
   ];
+
+  //自定圆点分页指示器
+  buildSwiperPagination() {
+    // 分页指示器
+    return SwiperPagination(
+      //指示器显示的位置
+      alignment: Alignment.bottomLeft, // 位置 Alignment.bottomCenter 底部中间
+      // 距离调整
+      margin: EdgeInsets.fromLTRB(20.w, 0, 0, 6.w),
+      // 指示器构建
+      builder: DotSwiperPaginationBuilder(
+          // 点之间的间隔
+          space: 3.w,
+          // 没选中时的大小
+          size: 7.w,
+          // 选中时的大小
+          activeSize: 7.w,
+          // 没选中时的颜色
+          color: Color.fromRGBO(255, 255, 255, 0.4),
+          //选中时的颜色
+          activeColor: Colors.white),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context,
+        designSize: Size(375, 667), allowFontScaling: false);
     return Container(
-      margin: const EdgeInsets.fromLTRB(15, 15, 15, 15),
+      margin: EdgeInsets.fromLTRB(16.w, 12.w, 16.w, 0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(20.0)),
@@ -36,7 +63,7 @@ class HomeBanner extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(
-                      Radius.circular(10),
+                      Radius.circular(6.w),
                     ),
                     image: DecorationImage(
                       image: NetworkImage(imageList[index]["url"]),
@@ -47,12 +74,12 @@ class HomeBanner extends StatelessWidget {
           },
           itemCount: this.imageList.length,
           //配置指示器
-          pagination: new SwiperPagination(),
+          pagination: buildSwiperPagination(),
           //配置左右箭头
           //control: new SwiperControl(),
           //scale: 0.96,
           loop: true,
-          duration: 300,
+          duration: 800,
           //viewportFraction: 0.92,
           autoplay: true,
         ),

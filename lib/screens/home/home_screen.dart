@@ -1,3 +1,4 @@
+import 'package:Cloudgrain_parents/widgets/banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:Cloudgrain_parents/data/data.dart';
@@ -59,41 +60,136 @@ class _HomeScreenState extends State<HomeScreen> {
         width: 375.w,
         height: 184.w,
         padding: EdgeInsets.fromLTRB(16.w, 16.w, 16.w, 0),
-        child: Column(
-          children: <Widget>[
-            Container(
-              width: 343.w,
-              height: 132.w,
-              decoration: BoxDecoration(
-                color: Color.fromRGBO(84, 104, 231, 1),
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(6.w),
-                    topRight: Radius.circular(6.w)),
+        child: Container(
+          width: 343.w,
+          height: 168.w,
+          decoration: BoxDecoration(
+              color: Colors.black,
+              borderRadius: BorderRadius.circular(7.w),
+              boxShadow: [
+                BoxShadow(
+                    color: Color.fromRGBO(192, 192, 192, 0.5),
+                    offset: Offset(0, 2.w), //阴影xy轴偏移量
+                    blurRadius: 7.w, //阴影模糊程度
+                    spreadRadius: 0 //阴影扩散程度
+                    )
+              ]),
+          child: Column(
+            children: <Widget>[
+              Stack(
+                children: <Widget>[
+                  Container(
+                    width: 343.w,
+                    height: 132.w,
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(84, 104, 231, 1),
+                      borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(6.w),
+                          topRight: Radius.circular(6.w)),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(211.w, 34.w, 0, 0),
+                    child: Opacity(
+                      opacity: 0.4,
+                      child: Image.asset(
+                        'assets/images/yk_banner_a@3x.png',
+                        width: 132.w,
+                        height: 98.w,
+                        fit: BoxFit.fitHeight,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    width: 343.w,
+                    height: 132.w,
+                    padding: EdgeInsets.fromLTRB(72.w, 37.w, 72.w, 30.w),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        OutlineButton(
+                            borderSide:
+                                BorderSide(color: Colors.white, width: 1),
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(18.w)),
+                            onPressed: () {},
+                            child: Text(
+                              '回家看看',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 13.sp,
+                                  fontFamily: 'PingFangSC-Medium'),
+                            )),
+                        Text(
+                          '进入回家看看，家庭情况实时监控',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 13.sp,
+                              fontFamily: 'PingFangSC-Regular'),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
               ),
-            ),
-            Row(
-              children: <Widget>[
-                Container(
-                  width: 171.w,
-                  height: 36.w,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(2, 160, 241, 1),
-                    borderRadius:
-                        BorderRadius.only(bottomLeft: Radius.circular(6.w)),
+              Row(
+                children: <Widget>[
+                  Container(
+                    width: 171.w,
+                    height: 36.w,
+                    padding: EdgeInsets.only(left: 45.w),
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(2, 160, 241, 1),
+                      borderRadius:
+                          BorderRadius.only(bottomLeft: Radius.circular(6.w)),
+                    ),
+                    child: Row(
+                      children: <Widget>[
+                        Image.asset(
+                          'assets/icons/yk_banner_icon_a@3x.png',
+                          width: 26.w,
+                          height: 26.w,
+                        ),
+                        Text(
+                          '视频通话',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 13.sp,
+                              fontFamily: 'PingFangSC-Regular'),
+                        )
+                      ],
+                    ),
                   ),
-                ),
-                Container(
-                  width: 172.w,
-                  height: 36.w,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(255, 128, 88, 1),
-                    borderRadius:
-                        BorderRadius.only(bottomRight: Radius.circular(6.w)),
+                  Container(
+                    width: 172.w,
+                    height: 36.w,
+                    padding: EdgeInsets.only(left: 45.w),
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(255, 128, 88, 1),
+                      borderRadius:
+                          BorderRadius.only(bottomRight: Radius.circular(6.w)),
+                    ),
+                    child: Row(
+                      children: <Widget>[
+                        Image.asset(
+                          'assets/icons/yk_banner_icon_b@3x.png',
+                          width: 26.w,
+                          height: 26.w,
+                        ),
+                        Text(
+                          '用户提醒',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 13.sp,
+                              fontFamily: 'PingFangSC-Regular'),
+                        )
+                      ],
+                    ),
                   ),
-                ),
-              ],
-            )
-          ],
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -104,12 +200,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Container(
         width: 375.w,
         height: 98.w,
-        padding: EdgeInsets.fromLTRB(16.w, 12.w, 16.w, 0),
-        child: Container(
-          width: 343.w,
-          height: 86.w,
-          color: Color.fromRGBO(255, 197, 66, 1),
-        ),
+        child: HomeBanner(),
       ),
     );
   }
@@ -149,7 +240,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 42.w,
                 ),
                 Text(
-                  '待开始',
+                  '已完成',
                   style: TextStyle(
                       color: Color.fromRGBO(15, 32, 67, 1),
                       fontSize: 11.sp,
@@ -166,7 +257,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 42.w,
                 ),
                 Text(
-                  '待开始',
+                  '错题集',
                   style: TextStyle(
                       color: Color.fromRGBO(15, 32, 67, 1),
                       fontSize: 11.sp,
@@ -183,7 +274,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 42.w,
                 ),
                 Text(
-                  '待开始',
+                  '作业报表',
                   style: TextStyle(
                       color: Color.fromRGBO(15, 32, 67, 1),
                       fontSize: 11.sp,
@@ -220,24 +311,93 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Container(
+                          alignment: Alignment.topLeft,
                           width: 96.w,
                           height: 20.w,
                           child: Row(
                             children: <Widget>[
-                              Container(),
+                              Container(
+                                width: 5.w,
+                                height: 14.w,
+                                decoration: BoxDecoration(
+                                  color: Color.fromRGBO(99, 103, 234, 1),
+                                  borderRadius: BorderRadius.circular(2.5.w),
+                                ),
+                              ),
+                              Container(
+                                width: 5.w,
+                                height: 5.w,
+                              ),
+                              Text(
+                                '小佩奇的日程',
+                                style: TextStyle(
+                                    color: Color.fromRGBO(15, 32, 67, 1),
+                                    fontSize: 14.sp,
+                                    fontFamily: 'PingFangSC-Regular'),
+                              )
                             ],
                           ),
                         ),
-                        Text('123'),
-                        Text('123'),
+                        Container(
+                          width: 5.w,
+                          height: 2.w,
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Padding(padding: EdgeInsets.only(left: 10.w)),
+                            Text(
+                              '诗文朗读',
+                              style: TextStyle(
+                                  color: Color.fromRGBO(15, 32, 67, 0.49),
+                                  fontSize: 11.sp,
+                                  fontFamily: 'PingFangSC-Regular'),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Padding(padding: EdgeInsets.only(left: 10.w)),
+                            Text(
+                              '8:00～9:30',
+                              style: TextStyle(
+                                  color: Color.fromRGBO(15, 32, 67, 0.49),
+                                  fontSize: 11.sp,
+                                  fontFamily: 'PingFangSC-Regular'),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        Text('data'),
+                        Container(
+                          width: 39.w,
+                          height: 16.w,
+                          child: Row(
+                            children: <Widget>[
+                              Text(
+                                '更多',
+                                style: TextStyle(
+                                    color: Color.fromRGBO(15, 32, 67, 0.49),
+                                    fontSize: 11.sp,
+                                    fontFamily: 'PingFangSC-Regular'),
+                              ),
+                              Container(
+                                width: 6.w,
+                              ),
+                              Image.asset(
+                                'assets/icons/zy_icon_return@3x.png',
+                                width: 10.w,
+                                height: 10.w,
+                              )
+                            ],
+                          ),
+                        ),
                         Container(
                           width: 78.w,
                           height: 20.w,
@@ -306,20 +466,28 @@ class _HomeScreenState extends State<HomeScreen> {
 
   SliverToBoxAdapter _buildHomeworkGrid() {
     return SliverToBoxAdapter(
-      child: GridView.builder(
-        shrinkWrap: true,
-        itemCount: programmeList.length,
-        physics: NeverScrollableScrollPhysics(),
-        padding: EdgeInsets.symmetric(horizontal: 12),
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          mainAxisSpacing: 10,
-          crossAxisSpacing: 10,
-          childAspectRatio: 0.7,
+      child: Container(
+        padding: EdgeInsets.only(top: 13.w),
+        child: GridView.builder(
+          shrinkWrap: true,
+          itemCount: programmeList.length,
+          physics: NeverScrollableScrollPhysics(),
+          padding: EdgeInsets.symmetric(horizontal: 12),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            mainAxisSpacing: 11.w,
+            crossAxisSpacing: 14.w,
+            childAspectRatio: 0.7,
+          ),
+          itemBuilder: (context, index) {
+            //return Programme(data: programmeList[index]);
+            return Container(
+              width: 164.w,
+              height: 236.w,
+              color: Colors.black,
+            );
+          },
         ),
-        itemBuilder: (context, index) {
-          return Programme(data: programmeList[index]);
-        },
       ),
     );
   }

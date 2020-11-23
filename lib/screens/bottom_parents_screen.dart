@@ -40,7 +40,7 @@ class _BottomParentsScreenState extends State<BottomParentsScreen> {
     final _tabPages = <Widget>[
       HomeScreen(),
       CloudClassScreen(),
-      StatsScreen(),
+      ReadScreen(),
       ProfileScreen(),
     ];
 

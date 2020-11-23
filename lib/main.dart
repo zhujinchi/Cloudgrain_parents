@@ -1,7 +1,6 @@
 import 'package:Cloudgrain_parents/screens/login/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:Cloudgrain_parents/screens/login/login_screen.dart';
-import 'package:Cloudgrain_parents/screens/bottom_nav_screen.dart';
 
 void main() {
   runApp(MyApp());

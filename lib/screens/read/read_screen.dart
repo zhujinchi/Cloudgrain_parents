@@ -1,92 +1,76 @@
-import 'package:bubble_tab_indicator/bubble_tab_indicator.dart';
-import 'package:flutter/material.dart';
-import 'package:Cloudgrain_parents/config/palette.dart';
-import 'package:Cloudgrain_parents/config/styles.dart';
-import 'package:Cloudgrain_parents/data/data.dart';
+import 'package:Cloudgrain_parents/widgets/study_bookList.dart';
 import 'package:Cloudgrain_parents/widgets/widgets.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
-class StatsScreen extends StatefulWidget {
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+class ReadScreen extends StatefulWidget {
   @override
-  _StatsScreenState createState() => _StatsScreenState();
+  _ReadScreenState createState() => _ReadScreenState();
 }
 
-class _StatsScreenState extends State<StatsScreen> {
+class _ReadScreenState extends State<ReadScreen>
+    with SingleTickerProviderStateMixin {
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.yellow,
-      appBar: CustomAppBar(),
-      body: CustomScrollView(),
-    );
-  }
-
-  SliverPadding _buildHeader() {
-    return SliverPadding(
-      padding: const EdgeInsets.all(20.0),
-      sliver: SliverToBoxAdapter(
-        child: Text(
-          'Statistics',
-          style: const TextStyle(
-            color: Colors.white,
-            fontSize: 25.0,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ),
-    );
-  }
-
-  SliverToBoxAdapter _buildRegionTabBar() {
-    return SliverToBoxAdapter(
-      child: DefaultTabController(
+    ScreenUtil.init(context,
+        designSize: Size(375, 667), allowFontScaling: false);
+    return DefaultTabController(
         length: 2,
-        child: Container(
-          margin: const EdgeInsets.symmetric(horizontal: 20.0),
-          height: 50.0,
-          decoration: BoxDecoration(
-            color: Colors.white24,
-            borderRadius: BorderRadius.circular(25.0),
-          ),
-          child: TabBar(
-            indicator: BubbleTabIndicator(
-              tabBarIndicatorSize: TabBarIndicatorSize.tab,
-              indicatorHeight: 40.0,
-              indicatorColor: Colors.white,
+        child: Scaffold(
+          //backgroundColor: Colors.white,
+          appBar: AppBar(
+            backgroundColor: Colors.white,
+            brightness: Brightness.light,
+            elevation: 0.8,
+            //flexibleSpace: SafeArea(child: null),
+            automaticallyImplyLeading: false,
+            title: Container(
+              height: 48.w,
+              //color: Colors.red,
+              padding: EdgeInsets.fromLTRB(80.w, 10.w, 80.w, 0),
+              child: TabBar(
+                  indicatorSize: TabBarIndicatorSize.label,
+                  unselectedLabelColor: Color.fromRGBO(0, 0, 0, 0.85),
+                  labelStyle: TextStyle(
+                      color: Color.fromRGBO(0, 145, 255, 1),
+                      fontSize: 14.sp,
+                      fontFamily: 'PingFangSC-Regular'),
+                  labelColor: Color.fromRGBO(0, 145, 255, 1),
+                  tabs: <Tab>[
+                    Tab(
+                      text: '语文',
+                    ),
+                    Tab(
+                      text: '英语',
+                    )
+                  ]),
             ),
-            labelStyle: Styles.tabTextStyle,
-            labelColor: Colors.black,
-            unselectedLabelColor: Colors.white,
-            tabs: <Widget>[
-              Text('My Country'),
-              Text('Global'),
-            ],
-            onTap: (index) {},
           ),
-        ),
-      ),
-    );
-  }
-
-  SliverPadding _buildStatsTabBar() {
-    return SliverPadding(
-      padding: const EdgeInsets.all(20.0),
-      sliver: SliverToBoxAdapter(
-        child: DefaultTabController(
-          length: 3,
-          child: TabBar(
-            indicatorColor: Colors.transparent,
-            labelStyle: Styles.tabTextStyle,
-            labelColor: Colors.white,
-            unselectedLabelColor: Colors.white60,
-            tabs: <Widget>[
-              Text('Total'),
-              Text('Today'),
-              Text('Yesterday'),
+          body: TabBarView(
+            children: <Widget>[
+              Container(
+                child: ListViewBookPage(),
+              ),
+              Container(
+                child: ListView.separated(
+                  itemCount: 3,
+                  separatorBuilder: (BuildContext context, int index) {
+                    return;
+                  },
+                  itemBuilder: (BuildContext context, int index) {
+                    return;
+                  },
+                ),
+              ),
             ],
-            onTap: (index) {},
           ),
-        ),
-      ),
-    );
+        ));
   }
 }
