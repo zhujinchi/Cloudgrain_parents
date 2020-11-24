@@ -59,15 +59,7 @@ class _ReadScreenState extends State<ReadScreen>
                 child: ListViewBookPage(),
               ),
               Container(
-                child: ListView.separated(
-                  itemCount: 3,
-                  separatorBuilder: (BuildContext context, int index) {
-                    return;
-                  },
-                  itemBuilder: (BuildContext context, int index) {
-                    return;
-                  },
-                ),
+                child: ListViewBookPage(),
               ),
             ],
           ),

@@ -28,29 +28,39 @@ class _CloudClassScreenState extends State<CloudClassScreen> {
     ScreenUtil.init(context,
         designSize: Size(375, 667), allowFontScaling: false);
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        brightness: Brightness.light,
-        elevation: 0.8,
-        title: Text(
-          '云课',
-          style: TextStyle(
-              color: Color.fromRGBO(15, 32, 67, 1),
-              fontSize: 18.w,
-              fontFamily: 'PingFangSC-Medium'),
+        backgroundColor: Color.fromRGBO(250, 249, 247, 1),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          brightness: Brightness.light,
+          elevation: 0.8,
+          title: Text(
+            '云课',
+            style: TextStyle(
+                color: Color.fromRGBO(15, 32, 67, 1),
+                fontSize: 18.w,
+                fontFamily: 'PingFangSC-Medium'),
+          ),
         ),
-      ),
-      body: CustomScrollView(
-        slivers: <Widget>[
-          _buildClassTitle(),
-          _buildClassButtons(),
-          _buildBlankPadding(),
-          _buildSelectBar(),
-          _buildClassList()
-        ],
-      ),
-    );
+        body: RefreshIndicator(
+          onRefresh: _refresh,
+          child: CustomScrollView(
+            slivers: <Widget>[
+              _buildClassTitle(),
+              _buildClassButtons(),
+              _buildBlankPadding(),
+              _buildSelectBar(),
+              _buildClassList()
+            ],
+          ),
+        ));
+  }
+
+  Future<void> _refresh() async {
+    await Future<Null>.delayed(Duration(seconds: 3), () {
+      print('刷新');
+      setState(() {});
+      return null;
+    });
   }
 
   SliverToBoxAdapter _buildClassTitle() {
@@ -58,6 +68,7 @@ class _CloudClassScreenState extends State<CloudClassScreen> {
       child: Container(
         width: 375.w,
         height: 124.w,
+        color: Colors.white,
         padding: EdgeInsets.fromLTRB(16.w, 15.w, 16.w, 0),
         child: Stack(
           alignment: AlignmentDirectional.topStart,
@@ -175,6 +186,7 @@ class _CloudClassScreenState extends State<CloudClassScreen> {
       child: Container(
         width: 375.w,
         height: 90.w,
+        color: Colors.white,
         padding: EdgeInsets.fromLTRB(19.w, 21.w, 19.w, 0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -1,4 +1,6 @@
 import 'package:Cloudgrain_parents/widgets/banner.dart';
+import 'package:Cloudgrain_parents/widgets/bottomSheet_dialog.dart';
+import 'package:Cloudgrain_parents/widgets/homework_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:Cloudgrain_parents/data/data.dart';
@@ -28,30 +30,40 @@ class _HomeScreenState extends State<HomeScreen> {
     ScreenUtil.init(context,
         designSize: Size(375, 667), allowFontScaling: false);
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
         backgroundColor: Colors.white,
-        brightness: Brightness.light,
-        elevation: 0.8,
-        title: Text(
-          '云辅导',
-          style: TextStyle(
-              color: Color.fromRGBO(15, 32, 67, 1),
-              fontSize: 18.w,
-              fontFamily: 'PingFangSC-Medium'),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          brightness: Brightness.light,
+          elevation: 0.8,
+          title: Text(
+            '云辅导',
+            style: TextStyle(
+                color: Color.fromRGBO(15, 32, 67, 1),
+                fontSize: 18.w,
+                fontFamily: 'PingFangSC-Medium'),
+          ),
         ),
-      ),
-      body: CustomScrollView(
-        slivers: <Widget>[
-          _buildBackHome(),
-          _buildAdsBanner(),
-          _buildButtons(),
-          _buildSchedule(),
-          _buildHomeworkTitle(),
-          _buildHomeworkGrid()
-        ],
-      ),
-    );
+        body: RefreshIndicator(
+          onRefresh: _refresh,
+          child: CustomScrollView(
+            slivers: <Widget>[
+              _buildBackHome(),
+              _buildAdsBanner(),
+              _buildButtons(),
+              _buildSchedule(),
+              _buildHomeworkTitle(),
+              _buildHomeworkGrid()
+            ],
+          ),
+        ));
+  }
+
+  Future<void> _refresh() async {
+    await Future<Null>.delayed(Duration(seconds: 3), () {
+      print('刷新');
+      setState(() {});
+      return null;
+    });
   }
 
   SliverToBoxAdapter _buildBackHome() {
@@ -134,30 +146,54 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Row(
                 children: <Widget>[
-                  Container(
-                    width: 171.w,
-                    height: 36.w,
-                    padding: EdgeInsets.only(left: 45.w),
-                    decoration: BoxDecoration(
-                      color: Color.fromRGBO(2, 160, 241, 1),
-                      borderRadius:
-                          BorderRadius.only(bottomLeft: Radius.circular(6.w)),
-                    ),
-                    child: Row(
-                      children: <Widget>[
-                        Image.asset(
-                          'assets/icons/yk_banner_icon_a@3x.png',
-                          width: 26.w,
-                          height: 26.w,
-                        ),
-                        Text(
-                          '视频通话',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 13.sp,
-                              fontFamily: 'PingFangSC-Regular'),
-                        )
-                      ],
+                  InkWell(
+                    onTap: () {
+                      showDialog(
+                          barrierDismissible: true, //是否点击空白区域关闭对话框,默认为true，可以关闭
+                          context: context,
+                          builder: (BuildContext context) {
+                            var list = List();
+                            list.add('视频通话'); //显示的选择list
+                            list.add('语音通话');
+                            return CommonBottomSheet(
+                              list: list,
+                              onItemClickListener: (index) async {
+                                //回调方法
+                                Navigator.of(context).pop(1);
+                                if (index == 0) {
+                                  //
+                                } else {
+                                  //
+                                }
+                              },
+                            );
+                          });
+                    },
+                    child: Container(
+                      width: 171.w,
+                      height: 36.w,
+                      padding: EdgeInsets.only(left: 45.w),
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(2, 160, 241, 1),
+                        borderRadius:
+                            BorderRadius.only(bottomLeft: Radius.circular(6.w)),
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          Image.asset(
+                            'assets/icons/yk_banner_icon_a@3x.png',
+                            width: 26.w,
+                            height: 26.w,
+                          ),
+                          Text(
+                            '视频通话',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 13.sp,
+                                fontFamily: 'PingFangSC-Regular'),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Container(
@@ -481,10 +517,12 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           itemBuilder: (context, index) {
             //return Programme(data: programmeList[index]);
-            return Container(
-              width: 164.w,
-              height: 236.w,
-              color: Colors.black,
+            return HomeWorkCard(
+              homeworkContent: '123',
+              homeworkType: '123',
+              studentName: '123',
+              studentSchool: '123',
+              studentClass: '123',
             );
           },
         ),
