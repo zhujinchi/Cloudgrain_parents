@@ -30,6 +30,7 @@ class _CloudClassScreenState extends State<CloudClassScreen> {
     return Scaffold(
         backgroundColor: Color.fromRGBO(250, 249, 247, 1),
         appBar: AppBar(
+          centerTitle: true,
           backgroundColor: Colors.white,
           brightness: Brightness.light,
           elevation: 0.8,
@@ -342,7 +343,7 @@ class _CloudClassScreenState extends State<CloudClassScreen> {
             ),
           ),
         );
-      }, childCount: 10 //50个列表项
+      }, childCount: 10 //10个列表项
               ),
     );
   }

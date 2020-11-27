@@ -1,9 +1,12 @@
+import 'package:Cloudgrain_parents/screens/home/schedule_screen.dart';
 import 'package:Cloudgrain_parents/widgets/banner.dart';
 import 'package:Cloudgrain_parents/widgets/bottomSheet_dialog.dart';
 import 'package:Cloudgrain_parents/widgets/homework_card.dart';
+import 'package:Cloudgrain_parents/widgets/warnDialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:Cloudgrain_parents/data/data.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:Cloudgrain_parents/widgets/widgets.dart';
 
 import 'dart:ui' as ui;
@@ -32,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
+          centerTitle: true,
           backgroundColor: Colors.white,
           brightness: Brightness.light,
           elevation: 0.8,
@@ -196,32 +200,42 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ),
-                  Container(
-                    width: 172.w,
-                    height: 36.w,
-                    padding: EdgeInsets.only(left: 45.w),
-                    decoration: BoxDecoration(
-                      color: Color.fromRGBO(255, 128, 88, 1),
-                      borderRadius:
-                          BorderRadius.only(bottomRight: Radius.circular(6.w)),
+                  InkWell(
+                    onTap: () {
+                      showDialog(
+                          barrierDismissible: true, //是否点击空白区域关闭对话框,默认为true，可以关闭
+                          context: context,
+                          builder: (BuildContext context) {
+                            return WarnDialog();
+                          });
+                    },
+                    child: Container(
+                      width: 172.w,
+                      height: 36.w,
+                      padding: EdgeInsets.only(left: 45.w),
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(255, 128, 88, 1),
+                        borderRadius: BorderRadius.only(
+                            bottomRight: Radius.circular(6.w)),
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          Image.asset(
+                            'assets/icons/yk_banner_icon_b@3x.png',
+                            width: 26.w,
+                            height: 26.w,
+                          ),
+                          Text(
+                            '用户提醒',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 13.sp,
+                                fontFamily: 'PingFangSC-Regular'),
+                          )
+                        ],
+                      ),
                     ),
-                    child: Row(
-                      children: <Widget>[
-                        Image.asset(
-                          'assets/icons/yk_banner_icon_b@3x.png',
-                          width: 26.w,
-                          height: 26.w,
-                        ),
-                        Text(
-                          '用户提醒',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 13.sp,
-                              fontFamily: 'PingFangSC-Regular'),
-                        )
-                      ],
-                    ),
-                  ),
+                  )
                 ],
               )
             ],
@@ -346,92 +360,100 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Container(
-                          alignment: Alignment.topLeft,
-                          width: 96.w,
-                          height: 20.w,
-                          child: Row(
-                            children: <Widget>[
-                              Container(
-                                width: 5.w,
-                                height: 14.w,
-                                decoration: BoxDecoration(
-                                  color: Color.fromRGBO(99, 103, 234, 1),
-                                  borderRadius: BorderRadius.circular(2.5.w),
+                    InkWell(
+                      onTap: () {
+                        GotoScheduleScreen(context);
+                      },
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            alignment: Alignment.topLeft,
+                            width: 96.w,
+                            height: 20.w,
+                            child: Row(
+                              children: <Widget>[
+                                Container(
+                                  width: 5.w,
+                                  height: 14.w,
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(99, 103, 234, 1),
+                                    borderRadius: BorderRadius.circular(2.5.w),
+                                  ),
                                 ),
-                              ),
-                              Container(
-                                width: 5.w,
-                                height: 5.w,
-                              ),
-                              Text(
-                                '小佩奇的日程',
-                                style: TextStyle(
-                                    color: Color.fromRGBO(15, 32, 67, 1),
-                                    fontSize: 14.sp,
-                                    fontFamily: 'PingFangSC-Regular'),
-                              )
-                            ],
+                                Container(
+                                  width: 5.w,
+                                  height: 5.w,
+                                ),
+                                Text(
+                                  '小佩奇的日程',
+                                  style: TextStyle(
+                                      color: Color.fromRGBO(15, 32, 67, 1),
+                                      fontSize: 14.sp,
+                                      fontFamily: 'PingFangSC-Regular'),
+                                )
+                              ],
+                            ),
                           ),
-                        ),
-                        Container(
-                          width: 5.w,
-                          height: 2.w,
-                        ),
-                        Row(
-                          children: <Widget>[
-                            Padding(padding: EdgeInsets.only(left: 10.w)),
-                            Text(
-                              '诗文朗读',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(15, 32, 67, 0.49),
-                                  fontSize: 11.sp,
-                                  fontFamily: 'PingFangSC-Regular'),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: <Widget>[
-                            Padding(padding: EdgeInsets.only(left: 10.w)),
-                            Text(
-                              '8:00～9:30',
-                              style: TextStyle(
-                                  color: Color.fromRGBO(15, 32, 67, 0.49),
-                                  fontSize: 11.sp,
-                                  fontFamily: 'PingFangSC-Regular'),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Container(
-                          width: 39.w,
-                          height: 16.w,
-                          child: Row(
+                          Container(
+                            width: 5.w,
+                            height: 2.w,
+                          ),
+                          Row(
                             children: <Widget>[
+                              Padding(padding: EdgeInsets.only(left: 10.w)),
                               Text(
-                                '更多',
+                                '诗文朗读',
                                 style: TextStyle(
                                     color: Color.fromRGBO(15, 32, 67, 0.49),
                                     fontSize: 11.sp,
                                     fontFamily: 'PingFangSC-Regular'),
                               ),
-                              Container(
-                                width: 6.w,
-                              ),
-                              Image.asset(
-                                'assets/icons/zy_icon_return@3x.png',
-                                width: 10.w,
-                                height: 10.w,
-                              )
                             ],
+                          ),
+                          Row(
+                            children: <Widget>[
+                              Padding(padding: EdgeInsets.only(left: 10.w)),
+                              Text(
+                                '8:00～9:30',
+                                style: TextStyle(
+                                    color: Color.fromRGBO(15, 32, 67, 0.49),
+                                    fontSize: 11.sp,
+                                    fontFamily: 'PingFangSC-Regular'),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        InkWell(
+                          onTap: () {},
+                          child: Container(
+                            width: 39.w,
+                            height: 16.w,
+                            child: Row(
+                              children: <Widget>[
+                                Text(
+                                  '更多',
+                                  style: TextStyle(
+                                      color: Color.fromRGBO(15, 32, 67, 0.49),
+                                      fontSize: 11.sp,
+                                      fontFamily: 'PingFangSC-Regular'),
+                                ),
+                                Container(
+                                  width: 6.w,
+                                ),
+                                Image.asset(
+                                  'assets/icons/zy_icon_return@3x.png',
+                                  width: 10.w,
+                                  height: 10.w,
+                                )
+                              ],
+                            ),
                           ),
                         ),
                         Container(
@@ -473,6 +495,11 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  void GotoScheduleScreen(BuildContext context) {
+    Navigator.of(context)
+        .push(CupertinoPageRoute(builder: (context) => ScheduleScreen()));
+  }
+
   SliverToBoxAdapter _buildHomeworkTitle() {
     return SliverToBoxAdapter(
       child: Container(
@@ -503,7 +530,7 @@ class _HomeScreenState extends State<HomeScreen> {
   SliverToBoxAdapter _buildHomeworkGrid() {
     return SliverToBoxAdapter(
       child: Container(
-        padding: EdgeInsets.only(top: 13.w),
+        padding: EdgeInsets.only(top: 13.w, bottom: 13.w),
         child: GridView.builder(
           shrinkWrap: true,
           itemCount: programmeList.length,
