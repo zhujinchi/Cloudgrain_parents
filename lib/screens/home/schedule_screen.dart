@@ -2,6 +2,7 @@ import 'dart:collection';
 import 'dart:convert';
 
 import 'package:Cloudgrain_parents/screens/home/creat_shedule_screen.dart';
+import 'package:Cloudgrain_parents/widgets/schedule_cell.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/svg.dart';
@@ -203,6 +204,7 @@ class _ScheduleScreenState extends State<ScheduleScreen>
         child: Column(
           children: <Widget>[
             Container(
+              height: 44,
               child: Row(
                 children: <Widget>[
                   IconButton(
@@ -317,7 +319,7 @@ class _ScheduleScreenState extends State<ScheduleScreen>
 
   SliverFixedExtentList _buildClassList() {
     return SliverFixedExtentList(
-      itemExtent: 202.w,
+      itemExtent: 102.w,
       delegate:
           new SliverChildBuilderDelegate((BuildContext context, int index) {
         //创建列表项
@@ -325,52 +327,54 @@ class _ScheduleScreenState extends State<ScheduleScreen>
           alignment: Alignment.center,
           color: Colors.lightBlue[100 * (index % 9)],
           child: new Container(
-            width: 375.w,
-            height: 202.w,
-            padding: EdgeInsets.fromLTRB(0.w, 0.w, 0.w, 0.w),
-            color: Color.fromRGBO(250, 249, 247, 1),
-            child: Container(
               width: 375.w,
-              height: 102.w,
-              color: Colors.red,
-            ),
-          ),
+              height: 202.w,
+              padding: EdgeInsets.fromLTRB(0.w, 0.w, 0.w, 0.w),
+              color: Color.fromRGBO(250, 249, 247, 1),
+              child: ScheduleCell(
+                scheduleTime: '17:00-19:00',
+                scheduleContent: '朗读诗歌两小时，并背诵全文',
+                isEnd: false,
+                isLine: !(index == 2),
+              )),
         );
-      }, childCount: 2),
+      }, childCount: 3),
     );
   }
 
   SliverToBoxAdapter _buildStudyChart() {
     return SliverToBoxAdapter(
-      child: Container(
-        width: 375.w,
-        height: 127.w,
-        padding: EdgeInsets.only(
-          left: 0.w,
-          top: 41.w,
+      child: Column(children: <Widget>[
+        Container(
+          width: 375.w,
+          height: 41.w,
         ),
-        child: Container(
-          width: 313.w,
+        Container(
+          width: 375.w,
           height: 44.w,
-          color: Colors.red,
-          // child: MaterialButton(
-          //   child: Text(
-          //     '看护提醒',
-          //     style: TextStyle(
-          //       color: Color.fromRGBO(59, 61, 79, 1),
-          //       fontFamily: 'PingFangSC-Regular',
-          //       fontSize: 14.sp,
-          //     ),
-          //   ),
-          //   elevation: 0,
-          //   color: Color.fromRGBO(252, 207, 97, 1),
-          //   shape: RoundedRectangleBorder(
-          //       borderRadius: BorderRadius.circular(4.w)),
-          //   //borderSide: BorderSide(color: Colors.orange, width: 1),
-          //   onPressed: () {},
-          // ),
+          margin: EdgeInsets.only(left: 31.w, right: 31.w),
+          child: MaterialButton(
+            child: Text(
+              '学习计划报表',
+              style: TextStyle(
+                color: Color.fromRGBO(255, 255, 255, 1),
+                fontFamily: 'PingFangSC-Semibold',
+                fontSize: 16.sp,
+              ),
+            ),
+            elevation: 0,
+            color: Color.fromRGBO(0, 142, 255, 1),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(6.w)),
+            //borderSide: BorderSide(color: Colors.orange, width: 1),
+            onPressed: () {},
+          ),
         ),
-      ),
+        Container(
+          width: 375.w,
+          height: 42.w,
+        )
+      ]),
     );
   }
 

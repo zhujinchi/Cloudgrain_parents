@@ -431,7 +431,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         InkWell(
-                          onTap: () {},
+                          onTap: () {
+                            GotoScheduleScreen(context);
+                          },
                           child: Container(
                             width: 39.w,
                             height: 16.w,
