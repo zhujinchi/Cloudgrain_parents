@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/angzeng/Cloudgrain_project/Cloudgrain_parents/build/app/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/angzeng/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/res/values-bn/values-bn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/angzeng/Cloudgrain_project/Cloudgrain_parents/build/app/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat",
             "map": [
                 {
@@ -31,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/angzeng/Cloudgrain_project/Cloudgrain_parents/build/app/intermediates/res/merged/debug/values-te_values-te.arsc.flat",
+            "outputFile": "/Users/angzeng/Cloudgrain_project/Cloudgrain_parents/build/app/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/angzeng/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/res/values-te/values-te.xml",
+                    "source": "/Users/angzeng/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -50,6 +35,21 @@
             "map": [
                 {
                     "source": "/Users/angzeng/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/angzeng/Cloudgrain_project/Cloudgrain_parents/build/app/intermediates/res/merged/debug/values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/angzeng/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/res/values-te/values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

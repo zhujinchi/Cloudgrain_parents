@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           '进入回家看看，家庭情况实时监控',
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 13.sp,
+                              fontSize: 12.sp,
                               fontFamily: 'PingFangSC-Regular'),
                         ),
                       ],
@@ -348,140 +348,146 @@ class _HomeScreenState extends State<HomeScreen> {
           alignment: AlignmentDirectional.topStart,
           children: <Widget>[
             Padding(
-              padding: EdgeInsets.only(top: 22.w),
-              child: Container(
-                width: 343.w,
-                height: 90.w,
-                padding: EdgeInsets.fromLTRB(87.w, 12.w, 18.w, 24.w),
-                decoration: BoxDecoration(
-                  color: Color.fromRGBO(236, 246, 255, 1),
-                  borderRadius: BorderRadius.all(Radius.circular(8.w)),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    InkWell(
-                      onTap: () {
-                        GotoScheduleScreen(context);
-                      },
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Container(
-                            alignment: Alignment.topLeft,
-                            width: 96.w,
-                            height: 20.w,
-                            child: Row(
-                              children: <Widget>[
-                                Container(
-                                  width: 5.w,
-                                  height: 14.w,
-                                  decoration: BoxDecoration(
-                                    color: Color.fromRGBO(99, 103, 234, 1),
-                                    borderRadius: BorderRadius.circular(2.5.w),
-                                  ),
-                                ),
-                                Container(
-                                  width: 5.w,
-                                  height: 5.w,
-                                ),
-                                Text(
-                                  '小佩奇的日程',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(15, 32, 67, 1),
-                                      fontSize: 14.sp,
-                                      fontFamily: 'PingFangSC-Regular'),
-                                )
-                              ],
-                            ),
-                          ),
-                          Container(
-                            width: 5.w,
-                            height: 2.w,
-                          ),
-                          Row(
-                            children: <Widget>[
-                              Padding(padding: EdgeInsets.only(left: 10.w)),
-                              Text(
-                                '诗文朗读',
-                                style: TextStyle(
-                                    color: Color.fromRGBO(15, 32, 67, 0.49),
-                                    fontSize: 11.sp,
-                                    fontFamily: 'PingFangSC-Regular'),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: <Widget>[
-                              Padding(padding: EdgeInsets.only(left: 10.w)),
-                              Text(
-                                '8:00～9:30',
-                                style: TextStyle(
-                                    color: Color.fromRGBO(15, 32, 67, 0.49),
-                                    fontSize: 11.sp,
-                                    fontFamily: 'PingFangSC-Regular'),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
+                padding: EdgeInsets.only(top: 22.w),
+                child: InkWell(
+                  onTap: () {
+                    GotoScheduleScreen(context);
+                  },
+                  child: Container(
+                    width: 343.w,
+                    height: 90.w,
+                    padding: EdgeInsets.fromLTRB(87.w, 12.w, 18.w, 24.w),
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(236, 246, 255, 1),
+                      borderRadius: BorderRadius.all(Radius.circular(8.w)),
                     ),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
+                    child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         InkWell(
                           onTap: () {
                             GotoScheduleScreen(context);
                           },
-                          child: Container(
-                            width: 39.w,
-                            height: 16.w,
-                            child: Row(
-                              children: <Widget>[
-                                Text(
-                                  '更多',
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Container(
+                                alignment: Alignment.topLeft,
+                                width: 96.w,
+                                height: 20.w,
+                                child: Row(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 5.w,
+                                      height: 14.w,
+                                      decoration: BoxDecoration(
+                                        color: Color.fromRGBO(99, 103, 234, 1),
+                                        borderRadius:
+                                            BorderRadius.circular(2.5.w),
+                                      ),
+                                    ),
+                                    Container(
+                                      width: 5.w,
+                                      height: 5.w,
+                                    ),
+                                    Text(
+                                      '小佩奇的日程',
+                                      style: TextStyle(
+                                          color: Color.fromRGBO(15, 32, 67, 1),
+                                          fontSize: 14.sp,
+                                          fontFamily: 'PingFangSC-Regular'),
+                                    )
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                width: 5.w,
+                                height: 2.w,
+                              ),
+                              Row(
+                                children: <Widget>[
+                                  Padding(padding: EdgeInsets.only(left: 10.w)),
+                                  Text(
+                                    '诗文朗读',
+                                    style: TextStyle(
+                                        color: Color.fromRGBO(15, 32, 67, 0.49),
+                                        fontSize: 11.sp,
+                                        fontFamily: 'PingFangSC-Regular'),
+                                  ),
+                                ],
+                              ),
+                              Row(
+                                children: <Widget>[
+                                  Padding(padding: EdgeInsets.only(left: 10.w)),
+                                  Text(
+                                    '8:00～9:30',
+                                    style: TextStyle(
+                                        color: Color.fromRGBO(15, 32, 67, 0.49),
+                                        fontSize: 11.sp,
+                                        fontFamily: 'PingFangSC-Regular'),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: <Widget>[
+                            InkWell(
+                              onTap: () {
+                                GotoScheduleScreen(context);
+                              },
+                              child: Container(
+                                width: 39.w,
+                                height: 16.w,
+                                child: Row(
+                                  children: <Widget>[
+                                    Text(
+                                      '更多',
+                                      style: TextStyle(
+                                          color:
+                                              Color.fromRGBO(15, 32, 67, 0.49),
+                                          fontSize: 11.sp,
+                                          fontFamily: 'PingFangSC-Regular'),
+                                    ),
+                                    Container(
+                                      width: 6.w,
+                                    ),
+                                    Image.asset(
+                                      'assets/icons/zy_icon_return@3x.png',
+                                      width: 10.w,
+                                      height: 10.w,
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Container(
+                              width: 78.w,
+                              height: 20.w,
+                              decoration: BoxDecoration(
+                                color: Color.fromRGBO(99, 103, 234, 1),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(12.w)),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  '学习计划报表',
                                   style: TextStyle(
-                                      color: Color.fromRGBO(15, 32, 67, 0.49),
+                                      color: Colors.white,
                                       fontSize: 11.sp,
                                       fontFamily: 'PingFangSC-Regular'),
                                 ),
-                                Container(
-                                  width: 6.w,
-                                ),
-                                Image.asset(
-                                  'assets/icons/zy_icon_return@3x.png',
-                                  width: 10.w,
-                                  height: 10.w,
-                                )
-                              ],
-                            ),
-                          ),
+                              ),
+                            )
+                          ],
                         ),
-                        Container(
-                          width: 78.w,
-                          height: 20.w,
-                          decoration: BoxDecoration(
-                            color: Color.fromRGBO(99, 103, 234, 1),
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(12.w)),
-                          ),
-                          child: Center(
-                            child: Text(
-                              '学习计划报表',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 11.sp,
-                                  fontFamily: 'PingFangSC-Regular'),
-                            ),
-                          ),
-                        )
                       ],
                     ),
-                  ],
-                ),
-              ),
-            ),
+                  ),
+                )),
             Padding(
               padding: EdgeInsets.only(left: 16.w),
               child: Image.asset(

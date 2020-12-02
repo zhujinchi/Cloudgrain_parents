@@ -1,77 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="267f499e-2dd6-4680-8d6b-86bfacf01bb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/.transforms/537dd7d8bf37fc23ca5eb7c028d6edd6.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/.transforms/ae538bd0b92b9b92bcab1859aa9646ab.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/.transforms/ae538bd0b92b9b92bcab1859aa9646ab/full/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/full_jar/debug/createFullJarDebug/full.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/library_java_res/debug/res.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/outputs/aar/flutter_plugin_android_lifecycle-debug.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/flutter_plugin_android_lifecycle/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/.transforms/3f52744bb9d9d6d957d37041a893bef3.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/.transforms/3f52744bb9d9d6d957d37041a893bef3/full/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/.transforms/ba6d1f4aec5cd0c927743369066e6f7b.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/generated/source/buildConfig/debug/io/flutter/plugins/imagepicker/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/full_jar/debug/createFullJarDebug/full.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/library_java_res/debug/res.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/packaged_res/debug/xml/flutter_image_picker_file_paths.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/outputs/aar/image_picker-debug.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../build/image_picker/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher_logo-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_logo_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-20-ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-20@2x-ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-29-ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-29@2x-ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/1e650d7c81ce756e1f3ebf8c1b409a8a/outputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/302699f5223c68b2dfaad40e99a3ccaa/outputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/c7b6e7263a28c1119cd935d59943f6a3/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/c7b6e7263a28c1119cd935d59943f6a3/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.dart_tool/flutter_build/c7b6e7263a28c1119cd935d59943f6a3/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/../.dart_tool/flutter_build/c7b6e7263a28c1119cd935d59943f6a3/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/../.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/activity/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/activity/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/com/example/Cloudgrain_parents/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/com/example/Cloudgrain_parents/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/com/tekartik/sqflite/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/com/tekartik/sqflite/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/flutter_plugin_android_lifecycle/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/flutter_plugin_android_lifecycle/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/imagepicker/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/imagepicker/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/pathprovider/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/r/io/flutter/plugins/pathprovider/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/libs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/libs.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/y_krIfUBg3xuz_+l25244Mf_r4A=" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/y_krIfUBg3xuz_+l25244Mf_r4A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/activity/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/activity/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/core/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/example/Cloudgrain_parents/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/tekartik/sqflite/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/com/tekartik/sqflite/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/io/flutter/plugins/flutter_plugin_android_lifecycle/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/io/flutter/plugins/flutter_plugin_android_lifecycle/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/io/flutter/plugins/imagepicker/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/io/flutter/plugins/imagepicker/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/io/flutter/plugins/pathprovider/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/classes/io/flutter/plugins/pathprovider/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$mipmap.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$xml.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/example/Cloudgrain_parents/R$xml.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/tekartik/sqflite/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/com/tekartik/sqflite/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/flutter_plugin_android_lifecycle/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/flutter_plugin_android_lifecycle/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/imagepicker/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/imagepicker/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/pathprovider/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/pathprovider/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon20x20~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon29x29~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon40x40~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon76x76~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon76x76~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/home/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/login/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/login/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/screens/login/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/screens/login/splash_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/widgets/study_bookList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/widgets/study_bookList.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="10.1_WXGA_Tablet_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -107,6 +345,7 @@
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -119,7 +358,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -189,5 +428,9 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.23.1440.820/-235.-1177.1920.1177@0.23.1440.820" timestamp="1605604853615" />
+    <state x="100" y="123" width="1240" height="620" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1606810047257">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="100" y="123" width="1240" height="620" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.820@0.23.1440.820" timestamp="1606810047257" />
   </component>
 </project>
