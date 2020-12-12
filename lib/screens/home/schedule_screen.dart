@@ -2,6 +2,7 @@ import 'dart:collection';
 import 'dart:convert';
 
 import 'package:Cloudgrain_parents/screens/home/creat_shedule_screen.dart';
+import 'package:Cloudgrain_parents/screens/home/studyplanchart/home_studyPlanBoard.dart';
 import 'package:Cloudgrain_parents/widgets/schedule_cell.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -367,7 +368,10 @@ class _ScheduleScreenState extends State<ScheduleScreen>
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(6.w)),
             //borderSide: BorderSide(color: Colors.orange, width: 1),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(CupertinoPageRoute(
+                  builder: (context) => StudyPlanBoardScreen()));
+            },
           ),
         ),
         Container(

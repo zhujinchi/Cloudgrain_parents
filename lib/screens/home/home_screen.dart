@@ -1,4 +1,10 @@
+import 'package:Cloudgrain_parents/screens/home/finished_screen.dart';
+import 'package:Cloudgrain_parents/screens/home/homeworkchart/home_studyBoard.dart';
+import 'package:Cloudgrain_parents/screens/home/ready_screen.dart';
 import 'package:Cloudgrain_parents/screens/home/schedule_screen.dart';
+import 'package:Cloudgrain_parents/screens/home/studyplanchart/home_studyPlanBoard.dart';
+import 'package:Cloudgrain_parents/screens/home/wrong_colleboration_screen.dart';
+import 'package:Cloudgrain_parents/screens/read/read_screen.dart';
 import 'package:Cloudgrain_parents/widgets/banner.dart';
 import 'package:Cloudgrain_parents/widgets/bottomSheet_dialog.dart';
 import 'package:Cloudgrain_parents/widgets/homework_card.dart';
@@ -140,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           '进入回家看看，家庭情况实时监控',
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 12.sp,
+                              fontSize: 11.sp,
                               fontFamily: 'PingFangSC-Regular'),
                         ),
                       ],
@@ -264,74 +270,97 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/icons/yk_icon_a@3x.png',
-                  width: 42.w,
-                  height: 42.w,
-                ),
-                Text(
-                  '待开始',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(
+                    CupertinoPageRoute(builder: (context) => ReadyScreen()));
+              },
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Image.asset(
+                    'assets/icons/yk_icon_a@3x.png',
+                    width: 42.w,
+                    height: 42.w,
+                  ),
+                  Text(
+                    '待开始',
+                    style: TextStyle(
+                        color: Color.fromRGBO(15, 32, 67, 1),
+                        fontSize: 11.sp,
+                        fontFamily: 'PingFangSC-Regular'),
+                  ),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/icons/yk_icon_b@3x.png',
-                  width: 42.w,
-                  height: 42.w,
-                ),
-                Text(
-                  '已完成',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(
+                    CupertinoPageRoute(builder: (context) => FinishedScreen()));
+              },
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Image.asset(
+                    'assets/icons/yk_icon_b@3x.png',
+                    width: 42.w,
+                    height: 42.w,
+                  ),
+                  Text(
+                    '已完成',
+                    style: TextStyle(
+                        color: Color.fromRGBO(15, 32, 67, 1),
+                        fontSize: 11.sp,
+                        fontFamily: 'PingFangSC-Regular'),
+                  ),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/icons/yk_icon_c@3x.png',
-                  width: 42.w,
-                  height: 42.w,
-                ),
-                Text(
-                  '错题集',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => WrongColleborationScreen()));
+              },
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Image.asset(
+                    'assets/icons/yk_icon_c@3x.png',
+                    width: 42.w,
+                    height: 42.w,
+                  ),
+                  Text(
+                    '错题集',
+                    style: TextStyle(
+                        color: Color.fromRGBO(15, 32, 67, 1),
+                        fontSize: 11.sp,
+                        fontFamily: 'PingFangSC-Regular'),
+                  ),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/icons/yk_icon_d@3x.png',
-                  width: 42.w,
-                  height: 42.w,
-                ),
-                Text(
-                  '作业报表',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
-            )
+            InkWell(
+                onTap: () {
+                  Navigator.of(context).push(CupertinoPageRoute(
+                      builder: (context) => StudyBoardScreen()));
+                },
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/icons/yk_icon_d@3x.png',
+                      width: 42.w,
+                      height: 42.w,
+                    ),
+                    Text(
+                      '作业报表',
+                      style: TextStyle(
+                          color: Color.fromRGBO(15, 32, 67, 1),
+                          fontSize: 11.sp,
+                          fontFamily: 'PingFangSC-Regular'),
+                    ),
+                  ],
+                ))
           ],
         ),
       ),
@@ -464,24 +493,30 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                               ),
                             ),
-                            Container(
-                              width: 78.w,
-                              height: 20.w,
-                              decoration: BoxDecoration(
-                                color: Color.fromRGBO(99, 103, 234, 1),
-                                borderRadius:
-                                    BorderRadius.all(Radius.circular(12.w)),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  '学习计划报表',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 11.sp,
-                                      fontFamily: 'PingFangSC-Regular'),
-                                ),
-                              ),
-                            )
+                            InkWell(
+                                onTap: () {
+                                  Navigator.of(context).push(CupertinoPageRoute(
+                                      builder: (context) =>
+                                          StudyPlanBoardScreen()));
+                                },
+                                child: Container(
+                                  width: 78.w,
+                                  height: 20.w,
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(99, 103, 234, 1),
+                                    borderRadius:
+                                        BorderRadius.all(Radius.circular(12.w)),
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      '学习计划报表',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 11.sp,
+                                          fontFamily: 'PingFangSC-Regular'),
+                                    ),
+                                  ),
+                                ))
                           ],
                         ),
                       ],

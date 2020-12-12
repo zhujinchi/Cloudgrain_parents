@@ -1,3 +1,11 @@
+import 'package:Cloudgrain_parents/screens/profile/profile_child.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_child_class.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_child_teachers.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_contect_us.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_information.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_integration.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_news.dart';
+import 'package:Cloudgrain_parents/screens/profile/profile_setting.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/svg.dart';
@@ -50,6 +58,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   SliverToBoxAdapter _buildProfileCard() {
     return SliverToBoxAdapter(
+        child: InkWell(
+      onTap: () {
+        Navigator.of(context).push(CupertinoPageRoute(
+            builder: (context) => ProfileInformationScreen()));
+      },
       child: Container(
         width: 375.w,
         height: 117.w,
@@ -120,7 +133,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ],
         ),
       ),
-    );
+    ));
   }
 
   SliverToBoxAdapter _buildSetLabels() {
@@ -134,52 +147,94 @@ class _ProfileScreenState extends State<ProfileScreen> {
               color: Color.fromRGBO(247, 248, 252, 1),
             ),
             //孩子班级
-            setLabelsWithPath('assets/icons/my_icon_a@3x.png', '孩子班级'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileChildClassScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_a@3x.png', '孩子班级'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
             //孩子老师
-            setLabelsWithPath('assets/icons/my_icon_h@3x.png', '孩子老师'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileChildTeacherScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_h@3x.png', '孩子老师'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
             //我的积分
-            setLabelsWithPath('assets/icons/my_icon_k@3x.png', '我的积分'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileIntegrationScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_k@3x.png', '我的积分'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
             //我的孩子
-            setLabelsWithPath('assets/icons/my_icon_g@3x.png', '我的孩子'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileChildScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_g@3x.png', '我的孩子'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
             //消息通知
-            setLabelsWithPath('assets/icons/my_icon_i@3x.png', '消息通知'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileNewsScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_i@3x.png', '消息通知'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
             //联系我们
-            setLabelsWithPath('assets/icons/my_icon_f@3x.png', '联系我们'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileContectUsScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_f@3x.png', '联系我们'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
             //设置
-            setLabelsWithPath('assets/icons/my_icon_j@3x.png', '设置'),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ProfileSettingScreen()));
+              },
+              child: setLabelsWithPath('assets/icons/my_icon_j@3x.png', '设置'),
+            ),
             Container(
               width: 375.w,
-              height: 2.w,
+              height: 1.w,
               color: Color.fromRGBO(239, 239, 239, 1),
             ),
 
@@ -239,17 +294,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   SliverToBoxAdapter _buildLogOutButton() {
     return SliverToBoxAdapter(
-      child: Container(
-        width: 375.w,
-        height: 50.w,
-        color: Color.fromRGBO(255, 255, 255, 1),
-        child: Center(
-          child: Text(
-            '退出登录',
-            style: TextStyle(
-                color: Color.fromRGBO(224, 32, 32, 1),
-                fontSize: 15.sp,
-                fontFamily: 'PingFangSC-Regular'),
+      child: InkWell(
+        onTap: () {
+          Navigator.of(context).pop(1);
+        },
+        child: Container(
+          width: 375.w,
+          height: 50.w,
+          color: Color.fromRGBO(255, 255, 255, 1),
+          child: Center(
+            child: Text(
+              '退出登录',
+              style: TextStyle(
+                  color: Color.fromRGBO(224, 32, 32, 1),
+                  fontSize: 15.sp,
+                  fontFamily: 'PingFangSC-Regular'),
+            ),
           ),
         ),
       ),

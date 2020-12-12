@@ -1,3 +1,5 @@
+import 'package:Cloudgrain_parents/screens/class/class_collaboration.dart';
+import 'package:Cloudgrain_parents/screens/class/class_information_screen.dart';
 import 'package:Cloudgrain_parents/widgets/class_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -6,6 +8,7 @@ import 'package:Cloudgrain_parents/config/styles.dart';
 import 'package:Cloudgrain_parents/data/data.dart';
 import 'package:Cloudgrain_parents/widgets/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter/cupertino.dart';
 
 class CloudClassScreen extends StatefulWidget {
   @override
@@ -192,74 +195,103 @@ class _CloudClassScreenState extends State<CloudClassScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/images/yk_zysc@3x.png',
-                  width: 43.w,
-                  height: 43.w,
-                ),
-                Text(
-                  '代缴费',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ClassInformationScreen(
+                          inforType: '待缴费',
+                        )));
+              },
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Image.asset(
+                    'assets/images/yk_zysc@3x.png',
+                    width: 43.w,
+                    height: 43.w,
+                  ),
+                  Text(
+                    '待缴费',
+                    style: TextStyle(
+                        color: Color.fromRGBO(15, 32, 67, 1),
+                        fontSize: 11.sp,
+                        fontFamily: 'PingFangSC-Regular'),
+                  ),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/images/yk_dks@3x.png',
-                  width: 42.w,
-                  height: 42.w,
-                ),
-                Text(
-                  '待开始',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ClassInformationScreen(
+                          inforType: '待开始',
+                        )));
+              },
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Image.asset(
+                    'assets/images/yk_dks@3x.png',
+                    width: 42.w,
+                    height: 42.w,
+                  ),
+                  Text(
+                    '待开始',
+                    style: TextStyle(
+                        color: Color.fromRGBO(15, 32, 67, 1),
+                        fontSize: 11.sp,
+                        fontFamily: 'PingFangSC-Regular'),
+                  ),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/images/yk_yjs@3x.png',
-                  width: 41.31.w,
-                  height: 42.w,
-                ),
-                Text(
-                  '已结束',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(CupertinoPageRoute(
+                    builder: (context) => ClassInformationScreen(
+                          inforType: '已结束',
+                        )));
+              },
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Image.asset(
+                    'assets/images/yk_yjs@3x.png',
+                    width: 41.31.w,
+                    height: 42.w,
+                  ),
+                  Text(
+                    '已结束',
+                    style: TextStyle(
+                        color: Color.fromRGBO(15, 32, 67, 1),
+                        fontSize: 11.sp,
+                        fontFamily: 'PingFangSC-Regular'),
+                  ),
+                ],
+              ),
             ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Image.asset(
-                  'assets/images/yk_wdsc@3x.png',
-                  width: 43.w,
-                  height: 43.w,
-                ),
-                Text(
-                  '我的收藏',
-                  style: TextStyle(
-                      color: Color.fromRGBO(15, 32, 67, 1),
-                      fontSize: 11.sp,
-                      fontFamily: 'PingFangSC-Regular'),
-                ),
-              ],
-            )
+            InkWell(
+                onTap: () {
+                  Navigator.of(context).push(CupertinoPageRoute(
+                      builder: (context) => ClassColleborationScreen()));
+                },
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/images/yk_wdsc@3x.png',
+                      width: 43.w,
+                      height: 43.w,
+                    ),
+                    Text(
+                      '我的收藏',
+                      style: TextStyle(
+                          color: Color.fromRGBO(15, 32, 67, 1),
+                          fontSize: 11.sp,
+                          fontFamily: 'PingFangSC-Regular'),
+                    ),
+                  ],
+                )),
           ],
         ),
       ),

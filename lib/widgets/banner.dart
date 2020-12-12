@@ -61,14 +61,16 @@ class HomeBanner extends StatelessWidget {
               onTap: () {},
               child: Container(
                 decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(6.w),
-                    ),
-                    image: DecorationImage(
-                      image: NetworkImage(imageList[index]["url"]),
-                      fit: BoxFit.fitWidth,
-                    )),
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(6.w),
+                  ),
+                ),
+                child: Image.asset(
+                  'assets/images/yk_banner_b@3x.png',
+                  width: 343.w,
+                  height: 86.w,
+                ),
               ),
             );
           },
